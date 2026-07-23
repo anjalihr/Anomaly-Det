@@ -1,0 +1,1064 @@
+[
+  {
+    "attack_id": "bf_user_052_20",
+    "type": "brute_force",
+    "user_id": "user_052",
+    "n_events": 4
+  },
+  {
+    "attack_id": "bf_user_004_12",
+    "type": "brute_force",
+    "user_id": "user_004",
+    "n_events": 9
+  },
+  {
+    "attack_id": "bf_user_000_26",
+    "type": "brute_force",
+    "user_id": "user_000",
+    "n_events": 19
+  },
+  {
+    "attack_id": "bf_user_021_17",
+    "type": "brute_force",
+    "user_id": "user_021",
+    "n_events": 7
+  },
+  {
+    "attack_id": "bf_user_016_0",
+    "type": "brute_force",
+    "user_id": "user_016",
+    "n_events": 14
+  },
+  {
+    "attack_id": "bf_user_006_16",
+    "type": "brute_force",
+    "user_id": "user_006",
+    "n_events": 6
+  },
+  {
+    "attack_id": "bf_user_031_20",
+    "type": "brute_force",
+    "user_id": "user_031",
+    "n_events": 18
+  },
+  {
+    "attack_id": "bf_user_028_11",
+    "type": "brute_force",
+    "user_id": "user_028",
+    "n_events": 5
+  },
+  {
+    "attack_id": "bf_user_049_8",
+    "type": "brute_force",
+    "user_id": "user_049",
+    "n_events": 7
+  },
+  {
+    "attack_id": "bf_user_053_22",
+    "type": "brute_force",
+    "user_id": "user_053",
+    "n_events": 17
+  },
+  {
+    "attack_id": "bf_user_035_10",
+    "type": "brute_force",
+    "user_id": "user_035",
+    "n_events": 17
+  },
+  {
+    "attack_id": "bf_user_064_18",
+    "type": "brute_force",
+    "user_id": "user_064",
+    "n_events": 13
+  },
+  {
+    "attack_id": "bf_user_062_13",
+    "type": "brute_force",
+    "user_id": "user_062",
+    "n_events": 7
+  },
+  {
+    "attack_id": "bf_user_018_13",
+    "type": "brute_force",
+    "user_id": "user_018",
+    "n_events": 14
+  },
+  {
+    "attack_id": "bf_user_013_6",
+    "type": "brute_force",
+    "user_id": "user_013",
+    "n_events": 19
+  },
+  {
+    "attack_id": "bf_user_055_27",
+    "type": "brute_force",
+    "user_id": "user_055",
+    "n_events": 12
+  },
+  {
+    "attack_id": "bf_user_012_2",
+    "type": "brute_force",
+    "user_id": "user_012",
+    "n_events": 15
+  },
+  {
+    "attack_id": "bf_user_009_9",
+    "type": "brute_force",
+    "user_id": "user_009",
+    "n_events": 16
+  },
+  {
+    "attack_id": "bf_user_020_4",
+    "type": "brute_force",
+    "user_id": "user_020",
+    "n_events": 8
+  },
+  {
+    "attack_id": "bf_user_044_5",
+    "type": "brute_force",
+    "user_id": "user_044",
+    "n_events": 16
+  },
+  {
+    "attack_id": "bf_user_008_4",
+    "type": "brute_force",
+    "user_id": "user_008",
+    "n_events": 7
+  },
+  {
+    "attack_id": "bf_user_014_18",
+    "type": "brute_force",
+    "user_id": "user_014",
+    "n_events": 12
+  },
+  {
+    "attack_id": "bf_user_022_4",
+    "type": "brute_force",
+    "user_id": "user_022",
+    "n_events": 4
+  },
+  {
+    "attack_id": "bf_user_054_25",
+    "type": "brute_force",
+    "user_id": "user_054",
+    "n_events": 9
+  },
+  {
+    "attack_id": "bf_user_050_2",
+    "type": "brute_force",
+    "user_id": "user_050",
+    "n_events": 9
+  },
+  {
+    "attack_id": "it_user_006_11",
+    "type": "impossible_travel",
+    "user_id": "user_006",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_063_11",
+    "type": "impossible_travel",
+    "user_id": "user_063",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_009_27",
+    "type": "impossible_travel",
+    "user_id": "user_009",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_033_8",
+    "type": "impossible_travel",
+    "user_id": "user_033",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_011_11",
+    "type": "impossible_travel",
+    "user_id": "user_011",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_052_13",
+    "type": "impossible_travel",
+    "user_id": "user_052",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_060_14",
+    "type": "impossible_travel",
+    "user_id": "user_060",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_026_7",
+    "type": "impossible_travel",
+    "user_id": "user_026",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_048_2",
+    "type": "impossible_travel",
+    "user_id": "user_048",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_038_2",
+    "type": "impossible_travel",
+    "user_id": "user_038",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_050_21",
+    "type": "impossible_travel",
+    "user_id": "user_050",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_001_4",
+    "type": "impossible_travel",
+    "user_id": "user_001",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_056_28",
+    "type": "impossible_travel",
+    "user_id": "user_056",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_046_14",
+    "type": "impossible_travel",
+    "user_id": "user_046",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_059_21",
+    "type": "impossible_travel",
+    "user_id": "user_059",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_039_28",
+    "type": "impossible_travel",
+    "user_id": "user_039",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_027_6",
+    "type": "impossible_travel",
+    "user_id": "user_027",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_025_15",
+    "type": "impossible_travel",
+    "user_id": "user_025",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_055_10",
+    "type": "impossible_travel",
+    "user_id": "user_055",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_022_1",
+    "type": "impossible_travel",
+    "user_id": "user_022",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_010_11",
+    "type": "impossible_travel",
+    "user_id": "user_010",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_007_15",
+    "type": "impossible_travel",
+    "user_id": "user_007",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_040_29",
+    "type": "impossible_travel",
+    "user_id": "user_040",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_034_26",
+    "type": "impossible_travel",
+    "user_id": "user_034",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_004_3",
+    "type": "impossible_travel",
+    "user_id": "user_004",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_053_11",
+    "type": "impossible_travel",
+    "user_id": "user_053",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_017_19",
+    "type": "impossible_travel",
+    "user_id": "user_017",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_032_27",
+    "type": "impossible_travel",
+    "user_id": "user_032",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_030_12",
+    "type": "impossible_travel",
+    "user_id": "user_030",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_062_5",
+    "type": "impossible_travel",
+    "user_id": "user_062",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_041_10",
+    "type": "impossible_travel",
+    "user_id": "user_041",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_061_29",
+    "type": "impossible_travel",
+    "user_id": "user_061",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_014_14",
+    "type": "impossible_travel",
+    "user_id": "user_014",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_029_0",
+    "type": "impossible_travel",
+    "user_id": "user_029",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_037_23",
+    "type": "impossible_travel",
+    "user_id": "user_037",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_020_21",
+    "type": "impossible_travel",
+    "user_id": "user_020",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_043_18",
+    "type": "impossible_travel",
+    "user_id": "user_043",
+    "n_events": 2
+  },
+  {
+    "attack_id": "it_user_051_29",
+    "type": "impossible_travel",
+    "user_id": "user_051",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_064_6",
+    "type": "lateral_movement",
+    "user_id": "user_064",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_026_9",
+    "type": "lateral_movement",
+    "user_id": "user_026",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_060_23",
+    "type": "lateral_movement",
+    "user_id": "user_060",
+    "n_events": 4
+  },
+  {
+    "attack_id": "lm_user_042_6",
+    "type": "lateral_movement",
+    "user_id": "user_042",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_034_21",
+    "type": "lateral_movement",
+    "user_id": "user_034",
+    "n_events": 5
+  },
+  {
+    "attack_id": "lm_user_051_17",
+    "type": "lateral_movement",
+    "user_id": "user_051",
+    "n_events": 5
+  },
+  {
+    "attack_id": "lm_user_038_11",
+    "type": "lateral_movement",
+    "user_id": "user_038",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_032_24",
+    "type": "lateral_movement",
+    "user_id": "user_032",
+    "n_events": 4
+  },
+  {
+    "attack_id": "lm_user_023_2",
+    "type": "lateral_movement",
+    "user_id": "user_023",
+    "n_events": 1
+  },
+  {
+    "attack_id": "lm_user_003_20",
+    "type": "lateral_movement",
+    "user_id": "user_003",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_057_24",
+    "type": "lateral_movement",
+    "user_id": "user_057",
+    "n_events": 4
+  },
+  {
+    "attack_id": "lm_user_016_3",
+    "type": "lateral_movement",
+    "user_id": "user_016",
+    "n_events": 4
+  },
+  {
+    "attack_id": "lm_user_008_26",
+    "type": "lateral_movement",
+    "user_id": "user_008",
+    "n_events": 5
+  },
+  {
+    "attack_id": "lm_user_022_15",
+    "type": "lateral_movement",
+    "user_id": "user_022",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_062_12",
+    "type": "lateral_movement",
+    "user_id": "user_062",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_053_11",
+    "type": "lateral_movement",
+    "user_id": "user_053",
+    "n_events": 5
+  },
+  {
+    "attack_id": "lm_user_029_24",
+    "type": "lateral_movement",
+    "user_id": "user_029",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_012_28",
+    "type": "lateral_movement",
+    "user_id": "user_012",
+    "n_events": 1
+  },
+  {
+    "attack_id": "lm_user_018_8",
+    "type": "lateral_movement",
+    "user_id": "user_018",
+    "n_events": 4
+  },
+  {
+    "attack_id": "lm_user_005_13",
+    "type": "lateral_movement",
+    "user_id": "user_005",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_035_28",
+    "type": "lateral_movement",
+    "user_id": "user_035",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_047_20",
+    "type": "lateral_movement",
+    "user_id": "user_047",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_054_17",
+    "type": "lateral_movement",
+    "user_id": "user_054",
+    "n_events": 6
+  },
+  {
+    "attack_id": "lm_user_037_8",
+    "type": "lateral_movement",
+    "user_id": "user_037",
+    "n_events": 1
+  },
+  {
+    "attack_id": "lm_user_052_9",
+    "type": "lateral_movement",
+    "user_id": "user_052",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_061_12",
+    "type": "lateral_movement",
+    "user_id": "user_061",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_055_22",
+    "type": "lateral_movement",
+    "user_id": "user_055",
+    "n_events": 4
+  },
+  {
+    "attack_id": "lm_user_000_29",
+    "type": "lateral_movement",
+    "user_id": "user_000",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_031_16",
+    "type": "lateral_movement",
+    "user_id": "user_031",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_039_8",
+    "type": "lateral_movement",
+    "user_id": "user_039",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_002_9",
+    "type": "lateral_movement",
+    "user_id": "user_002",
+    "n_events": 5
+  },
+  {
+    "attack_id": "lm_user_025_11",
+    "type": "lateral_movement",
+    "user_id": "user_025",
+    "n_events": 5
+  },
+  {
+    "attack_id": "lm_user_019_28",
+    "type": "lateral_movement",
+    "user_id": "user_019",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_013_6",
+    "type": "lateral_movement",
+    "user_id": "user_013",
+    "n_events": 2
+  },
+  {
+    "attack_id": "lm_user_056_16",
+    "type": "lateral_movement",
+    "user_id": "user_056",
+    "n_events": 5
+  },
+  {
+    "attack_id": "lm_user_027_27",
+    "type": "lateral_movement",
+    "user_id": "user_027",
+    "n_events": 3
+  },
+  {
+    "attack_id": "lm_user_015_22",
+    "type": "lateral_movement",
+    "user_id": "user_015",
+    "n_events": 1
+  },
+  {
+    "attack_id": "lm_user_001_5",
+    "type": "lateral_movement",
+    "user_id": "user_001",
+    "n_events": 2
+  },
+  {
+    "attack_id": "cm_user_054_24",
+    "type": "credential_misuse",
+    "user_id": "user_054",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_015_4",
+    "type": "credential_misuse",
+    "user_id": "user_015",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_051_20",
+    "type": "credential_misuse",
+    "user_id": "user_051",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_037_13",
+    "type": "credential_misuse",
+    "user_id": "user_037",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_050_23",
+    "type": "credential_misuse",
+    "user_id": "user_050",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_023_27",
+    "type": "credential_misuse",
+    "user_id": "user_023",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_002_2",
+    "type": "credential_misuse",
+    "user_id": "user_002",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_008_21",
+    "type": "credential_misuse",
+    "user_id": "user_008",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_014_24",
+    "type": "credential_misuse",
+    "user_id": "user_014",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_052_9",
+    "type": "credential_misuse",
+    "user_id": "user_052",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_020_22",
+    "type": "credential_misuse",
+    "user_id": "user_020",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_018_9",
+    "type": "credential_misuse",
+    "user_id": "user_018",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_041_6",
+    "type": "credential_misuse",
+    "user_id": "user_041",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_004_9",
+    "type": "credential_misuse",
+    "user_id": "user_004",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_055_19",
+    "type": "credential_misuse",
+    "user_id": "user_055",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_007_15",
+    "type": "credential_misuse",
+    "user_id": "user_007",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_047_28",
+    "type": "credential_misuse",
+    "user_id": "user_047",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_016_21",
+    "type": "credential_misuse",
+    "user_id": "user_016",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_013_7",
+    "type": "credential_misuse",
+    "user_id": "user_013",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_040_13",
+    "type": "credential_misuse",
+    "user_id": "user_040",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_025_12",
+    "type": "credential_misuse",
+    "user_id": "user_025",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_001_2",
+    "type": "credential_misuse",
+    "user_id": "user_001",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_031_1",
+    "type": "credential_misuse",
+    "user_id": "user_031",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_012_1",
+    "type": "credential_misuse",
+    "user_id": "user_012",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_046_21",
+    "type": "credential_misuse",
+    "user_id": "user_046",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_058_12",
+    "type": "credential_misuse",
+    "user_id": "user_058",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_000_27",
+    "type": "credential_misuse",
+    "user_id": "user_000",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_022_9",
+    "type": "credential_misuse",
+    "user_id": "user_022",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_026_19",
+    "type": "credential_misuse",
+    "user_id": "user_026",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_003_6",
+    "type": "credential_misuse",
+    "user_id": "user_003",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_027_6",
+    "type": "credential_misuse",
+    "user_id": "user_027",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_044_4",
+    "type": "credential_misuse",
+    "user_id": "user_044",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_011_27",
+    "type": "credential_misuse",
+    "user_id": "user_011",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_030_8",
+    "type": "credential_misuse",
+    "user_id": "user_030",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_039_4",
+    "type": "credential_misuse",
+    "user_id": "user_039",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_036_8",
+    "type": "credential_misuse",
+    "user_id": "user_036",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_033_29",
+    "type": "credential_misuse",
+    "user_id": "user_033",
+    "n_events": 1
+  },
+  {
+    "attack_id": "cm_user_060_10",
+    "type": "credential_misuse",
+    "user_id": "user_060",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_058_3",
+    "type": "device_spoofing",
+    "user_id": "user_058",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_014_6",
+    "type": "device_spoofing",
+    "user_id": "user_014",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_060_12",
+    "type": "device_spoofing",
+    "user_id": "user_060",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_019_10",
+    "type": "device_spoofing",
+    "user_id": "user_019",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_013_6",
+    "type": "device_spoofing",
+    "user_id": "user_013",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_037_13",
+    "type": "device_spoofing",
+    "user_id": "user_037",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_032_17",
+    "type": "device_spoofing",
+    "user_id": "user_032",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_061_7",
+    "type": "device_spoofing",
+    "user_id": "user_061",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_050_16",
+    "type": "device_spoofing",
+    "user_id": "user_050",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_036_17",
+    "type": "device_spoofing",
+    "user_id": "user_036",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_004_4",
+    "type": "device_spoofing",
+    "user_id": "user_004",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_028_24",
+    "type": "device_spoofing",
+    "user_id": "user_028",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_051_7",
+    "type": "device_spoofing",
+    "user_id": "user_051",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_043_20",
+    "type": "device_spoofing",
+    "user_id": "user_043",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_057_16",
+    "type": "device_spoofing",
+    "user_id": "user_057",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_044_6",
+    "type": "device_spoofing",
+    "user_id": "user_044",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_025_12",
+    "type": "device_spoofing",
+    "user_id": "user_025",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_040_7",
+    "type": "device_spoofing",
+    "user_id": "user_040",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_062_21",
+    "type": "device_spoofing",
+    "user_id": "user_062",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_030_27",
+    "type": "device_spoofing",
+    "user_id": "user_030",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_009_18",
+    "type": "device_spoofing",
+    "user_id": "user_009",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_031_15",
+    "type": "device_spoofing",
+    "user_id": "user_031",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_007_21",
+    "type": "device_spoofing",
+    "user_id": "user_007",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_022_27",
+    "type": "device_spoofing",
+    "user_id": "user_022",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_016_10",
+    "type": "device_spoofing",
+    "user_id": "user_016",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_064_8",
+    "type": "device_spoofing",
+    "user_id": "user_064",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_046_27",
+    "type": "device_spoofing",
+    "user_id": "user_046",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_052_15",
+    "type": "device_spoofing",
+    "user_id": "user_052",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_023_0",
+    "type": "device_spoofing",
+    "user_id": "user_023",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_015_20",
+    "type": "device_spoofing",
+    "user_id": "user_015",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_033_0",
+    "type": "device_spoofing",
+    "user_id": "user_033",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_063_28",
+    "type": "device_spoofing",
+    "user_id": "user_063",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_020_19",
+    "type": "device_spoofing",
+    "user_id": "user_020",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_048_10",
+    "type": "device_spoofing",
+    "user_id": "user_048",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_018_9",
+    "type": "device_spoofing",
+    "user_id": "user_018",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_059_8",
+    "type": "device_spoofing",
+    "user_id": "user_059",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_024_0",
+    "type": "device_spoofing",
+    "user_id": "user_024",
+    "n_events": 1
+  },
+  {
+    "attack_id": "ds_user_026_7",
+    "type": "device_spoofing",
+    "user_id": "user_026",
+    "n_events": 1
+  }
+]

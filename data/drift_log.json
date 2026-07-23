@@ -1,0 +1,49 @@
+{
+  "monitored_feature": "hour_zscore",
+  "adwin_delta": 0.05,
+  "per_entity_first_fire_day": {
+    "user_003": 27,
+    "user_008": 25,
+    "user_009": 23,
+    "user_010": 21,
+    "user_013": 25,
+    "user_020": 23,
+    "user_022": 23,
+    "user_023": 23,
+    "user_025": 27,
+    "user_028": 13,
+    "user_029": 23,
+    "user_030": 21,
+    "user_038": 13,
+    "user_045": 22,
+    "user_050": 28
+  },
+  "validation_against_ground_truth": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 7,
+    "tn": 43
+  },
+  "population_alerts": [
+    {
+      "day": 25,
+      "n_drifted_in_window": 10,
+      "fraction": 0.154
+    },
+    {
+      "day": 26,
+      "n_drifted_in_window": 10,
+      "fraction": 0.154
+    },
+    {
+      "day": 27,
+      "n_drifted_in_window": 12,
+      "fraction": 0.185
+    },
+    {
+      "day": 28,
+      "n_drifted_in_window": 13,
+      "fraction": 0.2
+    }
+  ]
+}

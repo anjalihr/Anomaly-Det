@@ -1,0 +1,20 @@
+{
+  "feature_cols": [
+    "hour_zscore",
+    "geo_distance_km",
+    "geo_velocity_kmh",
+    "time_since_last_event_min",
+    "is_new_device",
+    "fingerprint_mismatch",
+    "is_new_host",
+    "is_foreign_dept",
+    "is_first_time_in_this_dept",
+    "foreign_dept_burst_distinct",
+    "new_host_burst_count",
+    "graph_dist_from_history",
+    "failure_burst_count"
+  ],
+  "fill_values": {
+    "time_since_last_event_min": 47.05
+  }
+}

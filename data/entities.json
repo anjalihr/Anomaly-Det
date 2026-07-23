@@ -1,0 +1,5841 @@
+{
+  "users": {
+    "user_000": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 17,
+      "devices": [
+        "user_000-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-01",
+        "engineering-host-14",
+        "engineering-host-05",
+        "engineering-host-03",
+        "engineering-host-10",
+        "engineering-host-12",
+        "shared-host-01",
+        "shared-host-05",
+        "shared-host-06"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_001": {
+      "dept": "sales",
+      "role": "ic",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 17,
+      "devices": [
+        "user_001-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-07",
+        "sales-host-04",
+        "sales-host-02",
+        "sales-host-12",
+        "sales-host-11",
+        "sales-host-01",
+        "shared-host-06",
+        "shared-host-00",
+        "shared-host-07"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "it_admin-host-10",
+        "hr-host-12",
+        "hr-host-07",
+        "finance-host-13"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_002": {
+      "dept": "finance",
+      "role": "manager",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 18,
+      "devices": [
+        "user_002-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-10",
+        "finance-host-00",
+        "finance-host-01",
+        "finance-host-04",
+        "finance-host-02",
+        "finance-host-09",
+        "shared-host-04",
+        "shared-host-00",
+        "shared-host-01"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_003": {
+      "dept": "hr",
+      "role": "manager",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 16,
+      "devices": [
+        "user_003-dev0",
+        "user_003-dev1"
+      ],
+      "normal_hosts": [
+        "hr-host-11",
+        "hr-host-06",
+        "hr-host-01",
+        "hr-host-10",
+        "hr-host-05",
+        "hr-host-09",
+        "shared-host-05",
+        "shared-host-01",
+        "shared-host-04"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "post_drift_start_hr": 13,
+      "post_drift_end_hr": 22
+    },
+    "user_004": {
+      "dept": "it_admin",
+      "role": "ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 19,
+      "devices": [
+        "user_004-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-05",
+        "it_admin-host-09",
+        "it_admin-host-14",
+        "it_admin-host-04",
+        "it_admin-host-06",
+        "it_admin-host-08",
+        "shared-host-00",
+        "shared-host-04",
+        "shared-host-08"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "sales-host-10",
+        "hr-host-07",
+        "finance-host-09",
+        "hr-host-11"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "post_drift_start_hr": 13,
+      "post_drift_end_hr": 22
+    },
+    "user_005": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 20,
+      "devices": [
+        "user_005-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-02",
+        "engineering-host-13",
+        "engineering-host-12",
+        "engineering-host-03",
+        "engineering-host-10",
+        "engineering-host-04",
+        "shared-host-03",
+        "shared-host-09",
+        "shared-host-02"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-15",
+        "it_admin-host-12",
+        "sales-host-09",
+        "it_admin-host-10"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_006": {
+      "dept": "sales",
+      "role": "senior_ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 19,
+      "devices": [
+        "user_006-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-13",
+        "sales-host-03",
+        "sales-host-02",
+        "sales-host-12",
+        "sales-host-11",
+        "sales-host-08",
+        "shared-host-07",
+        "shared-host-00",
+        "shared-host-03"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": "user_006-dev-upgrade",
+      "upgrade_day": 14
+    },
+    "user_007": {
+      "dept": "finance",
+      "role": "ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 18,
+      "devices": [
+        "user_007-dev0",
+        "user_007-dev1"
+      ],
+      "normal_hosts": [
+        "finance-host-07",
+        "finance-host-04",
+        "finance-host-15",
+        "finance-host-01",
+        "finance-host-11",
+        "finance-host-14",
+        "shared-host-03",
+        "shared-host-04",
+        "shared-host-05"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_008": {
+      "dept": "hr",
+      "role": "manager",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 17,
+      "devices": [
+        "user_008-dev0",
+        "user_008-dev1"
+      ],
+      "normal_hosts": [
+        "hr-host-14",
+        "hr-host-06",
+        "hr-host-00",
+        "hr-host-03",
+        "hr-host-15",
+        "hr-host-11",
+        "shared-host-09",
+        "shared-host-00",
+        "shared-host-06"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "post_drift_start_hr": 22,
+      "post_drift_end_hr": 31
+    },
+    "user_009": {
+      "dept": "it_admin",
+      "role": "ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 20,
+      "devices": [
+        "user_009-dev0",
+        "user_009-dev1"
+      ],
+      "normal_hosts": [
+        "it_admin-host-15",
+        "it_admin-host-00",
+        "it_admin-host-06",
+        "it_admin-host-05",
+        "it_admin-host-10",
+        "it_admin-host-11",
+        "shared-host-06",
+        "shared-host-02",
+        "shared-host-07"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "sales-host-00",
+        "engineering-host-03",
+        "hr-host-02",
+        "engineering-host-10"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "post_drift_start_hr": 23,
+      "post_drift_end_hr": 32
+    },
+    "user_010": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 16,
+      "devices": [
+        "user_010-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-14",
+        "engineering-host-05",
+        "engineering-host-15",
+        "engineering-host-12",
+        "engineering-host-06",
+        "engineering-host-04",
+        "shared-host-06",
+        "shared-host-04",
+        "shared-host-01"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "post_drift_start_hr": 22,
+      "post_drift_end_hr": 30
+    },
+    "user_011": {
+      "dept": "sales",
+      "role": "manager",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 18,
+      "devices": [
+        "user_011-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-06",
+        "sales-host-13",
+        "sales-host-00",
+        "sales-host-09",
+        "sales-host-02",
+        "sales-host-03",
+        "shared-host-02",
+        "shared-host-07",
+        "shared-host-01"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_012": {
+      "dept": "finance",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 18,
+      "devices": [
+        "user_012-dev0",
+        "user_012-dev1"
+      ],
+      "normal_hosts": [
+        "finance-host-12",
+        "finance-host-06",
+        "finance-host-11",
+        "finance-host-03",
+        "finance-host-01",
+        "finance-host-09",
+        "shared-host-03",
+        "shared-host-01",
+        "shared-host-04"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_013": {
+      "dept": "hr",
+      "role": "manager",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 16,
+      "devices": [
+        "user_013-dev0",
+        "user_013-dev1"
+      ],
+      "normal_hosts": [
+        "hr-host-13",
+        "hr-host-15",
+        "hr-host-07",
+        "hr-host-01",
+        "hr-host-06",
+        "hr-host-05",
+        "shared-host-07",
+        "shared-host-02",
+        "shared-host-06"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-02",
+        "it_admin-host-13",
+        "it_admin-host-11",
+        "it_admin-host-07"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "post_drift_start_hr": 22,
+      "post_drift_end_hr": 31
+    },
+    "user_014": {
+      "dept": "it_admin",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 16,
+      "devices": [
+        "user_014-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-12",
+        "it_admin-host-05",
+        "it_admin-host-00",
+        "it_admin-host-07",
+        "it_admin-host-14",
+        "it_admin-host-02",
+        "shared-host-07",
+        "shared-host-03",
+        "shared-host-05"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-01",
+        "finance-host-11",
+        "finance-host-03",
+        "engineering-host-01"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_015": {
+      "dept": "engineering",
+      "role": "senior_ic",
+      "home_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 18,
+      "devices": [
+        "user_015-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-15",
+        "engineering-host-07",
+        "engineering-host-12",
+        "engineering-host-00",
+        "engineering-host-01",
+        "engineering-host-04",
+        "shared-host-03",
+        "shared-host-06",
+        "shared-host-09"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_016": {
+      "dept": "sales",
+      "role": "manager",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 18,
+      "devices": [
+        "user_016-dev0",
+        "user_016-dev1"
+      ],
+      "normal_hosts": [
+        "sales-host-08",
+        "sales-host-03",
+        "sales-host-01",
+        "sales-host-11",
+        "sales-host-14",
+        "sales-host-05",
+        "shared-host-01",
+        "shared-host-08",
+        "shared-host-02"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "it_admin-host-13",
+        "hr-host-03",
+        "hr-host-04",
+        "engineering-host-12"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_017": {
+      "dept": "finance",
+      "role": "senior_ic",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 17,
+      "devices": [
+        "user_017-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-01",
+        "finance-host-00",
+        "finance-host-08",
+        "finance-host-04",
+        "finance-host-11",
+        "finance-host-02",
+        "shared-host-07",
+        "shared-host-01",
+        "shared-host-00"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_018": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 16,
+      "devices": [
+        "user_018-dev0"
+      ],
+      "normal_hosts": [
+        "hr-host-12",
+        "hr-host-07",
+        "hr-host-01",
+        "hr-host-09",
+        "hr-host-10",
+        "hr-host-11",
+        "shared-host-00",
+        "shared-host-02",
+        "shared-host-08"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_019": {
+      "dept": "it_admin",
+      "role": "ic",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 17,
+      "devices": [
+        "user_019-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-14",
+        "it_admin-host-15",
+        "it_admin-host-07",
+        "it_admin-host-04",
+        "it_admin-host-09",
+        "it_admin-host-06",
+        "shared-host-04",
+        "shared-host-00",
+        "shared-host-01"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "sales-host-10",
+        "sales-host-11",
+        "finance-host-01",
+        "engineering-host-10"
+      ],
+      "upgrade_device": "user_019-dev-upgrade",
+      "upgrade_day": 15
+    },
+    "user_020": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 20,
+      "devices": [
+        "user_020-dev0",
+        "user_020-dev1"
+      ],
+      "normal_hosts": [
+        "engineering-host-14",
+        "engineering-host-01",
+        "engineering-host-10",
+        "engineering-host-03",
+        "engineering-host-04",
+        "engineering-host-13",
+        "shared-host-09",
+        "shared-host-03",
+        "shared-host-06"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-12",
+        "finance-host-03",
+        "hr-host-02",
+        "finance-host-02"
+      ],
+      "upgrade_device": "user_020-dev-upgrade",
+      "upgrade_day": 15,
+      "post_drift_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "post_drift_start_hr": 23,
+      "post_drift_end_hr": 31
+    },
+    "user_021": {
+      "dept": "sales",
+      "role": "senior_ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 19,
+      "devices": [
+        "user_021-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-02",
+        "sales-host-09",
+        "sales-host-00",
+        "sales-host-06",
+        "sales-host-11",
+        "sales-host-05",
+        "shared-host-09",
+        "shared-host-04",
+        "shared-host-00"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "engineering-host-02",
+        "hr-host-02",
+        "engineering-host-05",
+        "finance-host-06"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "post_drift_start_hr": 12,
+      "post_drift_end_hr": 21
+    },
+    "user_022": {
+      "dept": "finance",
+      "role": "senior_ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 18,
+      "devices": [
+        "user_022-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-11",
+        "finance-host-06",
+        "finance-host-05",
+        "finance-host-13",
+        "finance-host-10",
+        "finance-host-01",
+        "shared-host-02",
+        "shared-host-05",
+        "shared-host-06"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "post_drift_start_hr": 23,
+      "post_drift_end_hr": 31
+    },
+    "user_023": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 16,
+      "devices": [
+        "user_023-dev0"
+      ],
+      "normal_hosts": [
+        "hr-host-03",
+        "hr-host-12",
+        "hr-host-06",
+        "hr-host-08",
+        "hr-host-00",
+        "hr-host-10",
+        "shared-host-08",
+        "shared-host-07",
+        "shared-host-06"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-14",
+        "it_admin-host-15",
+        "it_admin-host-08",
+        "engineering-host-06"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "post_drift_start_hr": 13,
+      "post_drift_end_hr": 21
+    },
+    "user_024": {
+      "dept": "it_admin",
+      "role": "manager",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 20,
+      "devices": [
+        "user_024-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-05",
+        "it_admin-host-04",
+        "it_admin-host-08",
+        "it_admin-host-00",
+        "it_admin-host-13",
+        "it_admin-host-06",
+        "shared-host-01",
+        "shared-host-03",
+        "shared-host-09"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "hr-host-11",
+        "engineering-host-15",
+        "sales-host-03",
+        "hr-host-15"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_025": {
+      "dept": "engineering",
+      "role": "manager",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 18,
+      "devices": [
+        "user_025-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-04",
+        "engineering-host-06",
+        "engineering-host-03",
+        "engineering-host-09",
+        "engineering-host-08",
+        "engineering-host-02",
+        "shared-host-01",
+        "shared-host-04",
+        "shared-host-06"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "post_drift_start_hr": 23,
+      "post_drift_end_hr": 32
+    },
+    "user_026": {
+      "dept": "sales",
+      "role": "ic",
+      "home_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 19,
+      "devices": [
+        "user_026-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-14",
+        "sales-host-08",
+        "sales-host-07",
+        "sales-host-05",
+        "sales-host-12",
+        "sales-host-15",
+        "shared-host-08",
+        "shared-host-06",
+        "shared-host-07"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "post_drift_start_hr": 12,
+      "post_drift_end_hr": 21
+    },
+    "user_027": {
+      "dept": "finance",
+      "role": "ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 18,
+      "devices": [
+        "user_027-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-12",
+        "finance-host-06",
+        "finance-host-10",
+        "finance-host-15",
+        "finance-host-13",
+        "finance-host-02",
+        "shared-host-07",
+        "shared-host-00",
+        "shared-host-02"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_028": {
+      "dept": "hr",
+      "role": "senior_ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 17,
+      "devices": [
+        "user_028-dev0"
+      ],
+      "normal_hosts": [
+        "hr-host-04",
+        "hr-host-01",
+        "hr-host-07",
+        "hr-host-12",
+        "hr-host-15",
+        "hr-host-05",
+        "shared-host-09",
+        "shared-host-06",
+        "shared-host-01"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "post_drift_start_hr": 13,
+      "post_drift_end_hr": 22
+    },
+    "user_029": {
+      "dept": "it_admin",
+      "role": "manager",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 20,
+      "devices": [
+        "user_029-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-09",
+        "it_admin-host-03",
+        "it_admin-host-11",
+        "it_admin-host-01",
+        "it_admin-host-06",
+        "it_admin-host-12",
+        "shared-host-01",
+        "shared-host-07",
+        "shared-host-02"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-06",
+        "engineering-host-03",
+        "engineering-host-05",
+        "finance-host-09"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "post_drift_start_hr": 22,
+      "post_drift_end_hr": 30
+    },
+    "user_030": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 18,
+      "devices": [
+        "user_030-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-05",
+        "engineering-host-02",
+        "engineering-host-01",
+        "engineering-host-09",
+        "engineering-host-06",
+        "engineering-host-12",
+        "shared-host-03",
+        "shared-host-07",
+        "shared-host-02"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "hr-host-00",
+        "it_admin-host-10",
+        "sales-host-01",
+        "it_admin-host-11"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "post_drift_start_hr": 22,
+      "post_drift_end_hr": 31
+    },
+    "user_031": {
+      "dept": "sales",
+      "role": "senior_ic",
+      "home_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 19,
+      "devices": [
+        "user_031-dev0",
+        "user_031-dev1"
+      ],
+      "normal_hosts": [
+        "sales-host-12",
+        "sales-host-13",
+        "sales-host-07",
+        "sales-host-01",
+        "sales-host-03",
+        "sales-host-06",
+        "shared-host-09",
+        "shared-host-05",
+        "shared-host-04"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_032": {
+      "dept": "finance",
+      "role": "manager",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 17,
+      "devices": [
+        "user_032-dev0",
+        "user_032-dev1"
+      ],
+      "normal_hosts": [
+        "finance-host-06",
+        "finance-host-09",
+        "finance-host-04",
+        "finance-host-10",
+        "finance-host-11",
+        "finance-host-12",
+        "shared-host-02",
+        "shared-host-01",
+        "shared-host-00"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_033": {
+      "dept": "hr",
+      "role": "manager",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 16,
+      "devices": [
+        "user_033-dev0"
+      ],
+      "normal_hosts": [
+        "hr-host-04",
+        "hr-host-12",
+        "hr-host-08",
+        "hr-host-05",
+        "hr-host-13",
+        "hr-host-11",
+        "shared-host-04",
+        "shared-host-02",
+        "shared-host-09"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_034": {
+      "dept": "it_admin",
+      "role": "senior_ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 16,
+      "devices": [
+        "user_034-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-11",
+        "it_admin-host-01",
+        "it_admin-host-12",
+        "it_admin-host-06",
+        "it_admin-host-00",
+        "it_admin-host-04",
+        "shared-host-08",
+        "shared-host-01",
+        "shared-host-07"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-15",
+        "finance-host-01",
+        "hr-host-00",
+        "engineering-host-13"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_035": {
+      "dept": "engineering",
+      "role": "senior_ic",
+      "home_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 19,
+      "devices": [
+        "user_035-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-13",
+        "engineering-host-01",
+        "engineering-host-02",
+        "engineering-host-00",
+        "engineering-host-12",
+        "engineering-host-04",
+        "shared-host-07",
+        "shared-host-01",
+        "shared-host-08"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-01",
+        "it_admin-host-01",
+        "it_admin-host-10",
+        "hr-host-15"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_036": {
+      "dept": "sales",
+      "role": "manager",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 17,
+      "devices": [
+        "user_036-dev0",
+        "user_036-dev1"
+      ],
+      "normal_hosts": [
+        "sales-host-06",
+        "sales-host-07",
+        "sales-host-14",
+        "sales-host-03",
+        "sales-host-05",
+        "sales-host-01",
+        "shared-host-05",
+        "shared-host-08",
+        "shared-host-09"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "hr-host-03",
+        "finance-host-08",
+        "engineering-host-15",
+        "it_admin-host-10"
+      ],
+      "upgrade_device": "user_036-dev-upgrade",
+      "upgrade_day": 16
+    },
+    "user_037": {
+      "dept": "finance",
+      "role": "ic",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 18,
+      "devices": [
+        "user_037-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-07",
+        "finance-host-05",
+        "finance-host-12",
+        "finance-host-02",
+        "finance-host-09",
+        "finance-host-00",
+        "shared-host-04",
+        "shared-host-02",
+        "shared-host-08"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_038": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 16,
+      "devices": [
+        "user_038-dev0"
+      ],
+      "normal_hosts": [
+        "hr-host-05",
+        "hr-host-04",
+        "hr-host-00",
+        "hr-host-02",
+        "hr-host-11",
+        "hr-host-06",
+        "shared-host-08",
+        "shared-host-01",
+        "shared-host-09"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "post_drift_start_hr": 23,
+      "post_drift_end_hr": 31
+    },
+    "user_039": {
+      "dept": "it_admin",
+      "role": "manager",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 18,
+      "devices": [
+        "user_039-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-00",
+        "it_admin-host-15",
+        "it_admin-host-07",
+        "it_admin-host-06",
+        "it_admin-host-12",
+        "it_admin-host-10",
+        "shared-host-01",
+        "shared-host-07",
+        "shared-host-08"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "engineering-host-09",
+        "engineering-host-10",
+        "finance-host-09",
+        "sales-host-02"
+      ],
+      "upgrade_device": "user_039-dev-upgrade",
+      "upgrade_day": 18
+    },
+    "user_040": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 18,
+      "devices": [
+        "user_040-dev0",
+        "user_040-dev1"
+      ],
+      "normal_hosts": [
+        "engineering-host-10",
+        "engineering-host-13",
+        "engineering-host-07",
+        "engineering-host-06",
+        "engineering-host-12",
+        "engineering-host-01",
+        "shared-host-05",
+        "shared-host-06",
+        "shared-host-09"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_041": {
+      "dept": "sales",
+      "role": "senior_ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 15,
+      "devices": [
+        "user_041-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-11",
+        "sales-host-12",
+        "sales-host-02",
+        "sales-host-08",
+        "sales-host-00",
+        "sales-host-09",
+        "shared-host-08",
+        "shared-host-09",
+        "shared-host-05"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_042": {
+      "dept": "finance",
+      "role": "senior_ic",
+      "home_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 19,
+      "devices": [
+        "user_042-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-04",
+        "finance-host-10",
+        "finance-host-07",
+        "finance-host-03",
+        "finance-host-01",
+        "finance-host-05",
+        "shared-host-08",
+        "shared-host-05",
+        "shared-host-01"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_043": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 17,
+      "devices": [
+        "user_043-dev0",
+        "user_043-dev1"
+      ],
+      "normal_hosts": [
+        "hr-host-11",
+        "hr-host-00",
+        "hr-host-02",
+        "hr-host-13",
+        "hr-host-09",
+        "hr-host-10",
+        "shared-host-06",
+        "shared-host-01",
+        "shared-host-02"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_044": {
+      "dept": "it_admin",
+      "role": "senior_ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 17,
+      "devices": [
+        "user_044-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-11",
+        "it_admin-host-04",
+        "it_admin-host-15",
+        "it_admin-host-05",
+        "it_admin-host-09",
+        "it_admin-host-13",
+        "shared-host-01",
+        "shared-host-00",
+        "shared-host-02"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "sales-host-04",
+        "engineering-host-06",
+        "engineering-host-10",
+        "finance-host-02"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "post_drift_start_hr": 12,
+      "post_drift_end_hr": 20
+    },
+    "user_045": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 19,
+      "devices": [
+        "user_045-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-13",
+        "engineering-host-01",
+        "engineering-host-04",
+        "engineering-host-10",
+        "engineering-host-12",
+        "engineering-host-09",
+        "shared-host-07",
+        "shared-host-08",
+        "shared-host-04"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "it_admin-host-02",
+        "sales-host-07",
+        "sales-host-00",
+        "finance-host-10"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "post_drift_start_hr": 22,
+      "post_drift_end_hr": 30
+    },
+    "user_046": {
+      "dept": "sales",
+      "role": "manager",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 18,
+      "devices": [
+        "user_046-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-13",
+        "sales-host-02",
+        "sales-host-14",
+        "sales-host-06",
+        "sales-host-08",
+        "sales-host-03",
+        "shared-host-08",
+        "shared-host-09",
+        "shared-host-05"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "engineering-host-05",
+        "it_admin-host-07",
+        "engineering-host-02",
+        "it_admin-host-10"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "post_drift_start_hr": 11,
+      "post_drift_end_hr": 20
+    },
+    "user_047": {
+      "dept": "finance",
+      "role": "senior_ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 20,
+      "devices": [
+        "user_047-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-12",
+        "finance-host-00",
+        "finance-host-05",
+        "finance-host-02",
+        "finance-host-09",
+        "finance-host-07",
+        "shared-host-05",
+        "shared-host-01",
+        "shared-host-06"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_048": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 16,
+      "devices": [
+        "user_048-dev0"
+      ],
+      "normal_hosts": [
+        "hr-host-05",
+        "hr-host-01",
+        "hr-host-08",
+        "hr-host-10",
+        "hr-host-14",
+        "hr-host-13",
+        "shared-host-08",
+        "shared-host-03",
+        "shared-host-05"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_049": {
+      "dept": "it_admin",
+      "role": "manager",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 15,
+      "devices": [
+        "user_049-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-02",
+        "it_admin-host-15",
+        "it_admin-host-12",
+        "it_admin-host-10",
+        "it_admin-host-07",
+        "it_admin-host-11",
+        "shared-host-09",
+        "shared-host-07",
+        "shared-host-05"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-08",
+        "sales-host-03",
+        "hr-host-08",
+        "engineering-host-08"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_050": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 16,
+      "devices": [
+        "user_050-dev0",
+        "user_050-dev1"
+      ],
+      "normal_hosts": [
+        "engineering-host-11",
+        "engineering-host-13",
+        "engineering-host-04",
+        "engineering-host-01",
+        "engineering-host-10",
+        "engineering-host-12",
+        "shared-host-09",
+        "shared-host-08",
+        "shared-host-06"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "post_drift_start_hr": 13,
+      "post_drift_end_hr": 22
+    },
+    "user_051": {
+      "dept": "sales",
+      "role": "senior_ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 17,
+      "devices": [
+        "user_051-dev0",
+        "user_051-dev1"
+      ],
+      "normal_hosts": [
+        "sales-host-02",
+        "sales-host-08",
+        "sales-host-10",
+        "sales-host-15",
+        "sales-host-00",
+        "sales-host-03",
+        "shared-host-07",
+        "shared-host-09",
+        "shared-host-02"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_052": {
+      "dept": "finance",
+      "role": "senior_ic",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 19,
+      "devices": [
+        "user_052-dev0",
+        "user_052-dev1"
+      ],
+      "normal_hosts": [
+        "finance-host-09",
+        "finance-host-04",
+        "finance-host-11",
+        "finance-host-10",
+        "finance-host-15",
+        "finance-host-02",
+        "shared-host-05",
+        "shared-host-01",
+        "shared-host-02"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_053": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 16,
+      "devices": [
+        "user_053-dev0",
+        "user_053-dev1"
+      ],
+      "normal_hosts": [
+        "hr-host-11",
+        "hr-host-00",
+        "hr-host-05",
+        "hr-host-04",
+        "hr-host-02",
+        "hr-host-03",
+        "shared-host-05",
+        "shared-host-07",
+        "shared-host-03"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "sales-host-01",
+        "sales-host-03",
+        "engineering-host-09",
+        "finance-host-05"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_054": {
+      "dept": "it_admin",
+      "role": "senior_ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 17,
+      "devices": [
+        "user_054-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-04",
+        "it_admin-host-02",
+        "it_admin-host-14",
+        "it_admin-host-11",
+        "it_admin-host-09",
+        "it_admin-host-13",
+        "shared-host-07",
+        "shared-host-00",
+        "shared-host-06"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-14",
+        "sales-host-14",
+        "hr-host-08",
+        "finance-host-04"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_055": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 17,
+      "devices": [
+        "user_055-dev0"
+      ],
+      "normal_hosts": [
+        "engineering-host-14",
+        "engineering-host-12",
+        "engineering-host-04",
+        "engineering-host-15",
+        "engineering-host-06",
+        "engineering-host-08",
+        "shared-host-08",
+        "shared-host-06",
+        "shared-host-02"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_056": {
+      "dept": "sales",
+      "role": "senior_ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 17,
+      "devices": [
+        "user_056-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-09",
+        "sales-host-01",
+        "sales-host-12",
+        "sales-host-02",
+        "sales-host-04",
+        "sales-host-07",
+        "shared-host-08",
+        "shared-host-02",
+        "shared-host-06"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-12",
+        "it_admin-host-09",
+        "hr-host-12",
+        "engineering-host-03"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_057": {
+      "dept": "finance",
+      "role": "ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 17,
+      "devices": [
+        "user_057-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-00",
+        "finance-host-05",
+        "finance-host-01",
+        "finance-host-11",
+        "finance-host-10",
+        "finance-host-14",
+        "shared-host-02",
+        "shared-host-09",
+        "shared-host-00"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "it_admin-host-12",
+        "sales-host-01",
+        "it_admin-host-09",
+        "engineering-host-00"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_058": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 16,
+      "devices": [
+        "user_058-dev0",
+        "user_058-dev1"
+      ],
+      "normal_hosts": [
+        "hr-host-03",
+        "hr-host-00",
+        "hr-host-15",
+        "hr-host-06",
+        "hr-host-10",
+        "hr-host-09",
+        "shared-host-07",
+        "shared-host-01",
+        "shared-host-08"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "post_drift_start_hr": 12,
+      "post_drift_end_hr": 21
+    },
+    "user_059": {
+      "dept": "it_admin",
+      "role": "manager",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 18,
+      "devices": [
+        "user_059-dev0"
+      ],
+      "normal_hosts": [
+        "it_admin-host-11",
+        "it_admin-host-03",
+        "it_admin-host-09",
+        "it_admin-host-06",
+        "it_admin-host-02",
+        "it_admin-host-10",
+        "shared-host-01",
+        "shared-host-08",
+        "shared-host-05"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "engineering-host-08",
+        "engineering-host-02",
+        "hr-host-01",
+        "hr-host-12"
+      ],
+      "upgrade_device": "user_059-dev-upgrade",
+      "upgrade_day": 22
+    },
+    "user_060": {
+      "dept": "engineering",
+      "role": "ic",
+      "home_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "work_start_hr": 9,
+      "work_end_hr": 17,
+      "devices": [
+        "user_060-dev0",
+        "user_060-dev1"
+      ],
+      "normal_hosts": [
+        "engineering-host-05",
+        "engineering-host-13",
+        "engineering-host-12",
+        "engineering-host-10",
+        "engineering-host-07",
+        "engineering-host-11",
+        "shared-host-02",
+        "shared-host-09",
+        "shared-host-01"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_061": {
+      "dept": "sales",
+      "role": "senior_ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 16,
+      "devices": [
+        "user_061-dev0"
+      ],
+      "normal_hosts": [
+        "sales-host-12",
+        "sales-host-13",
+        "sales-host-08",
+        "sales-host-07",
+        "sales-host-04",
+        "sales-host-00",
+        "shared-host-03",
+        "shared-host-04",
+        "shared-host-05"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": "user_061-dev-upgrade",
+      "upgrade_day": 20
+    },
+    "user_062": {
+      "dept": "finance",
+      "role": "manager",
+      "home_city": [
+        "Pune",
+        18.5204,
+        73.8567,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 19,
+      "devices": [
+        "user_062-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-11",
+        "finance-host-14",
+        "finance-host-12",
+        "finance-host-08",
+        "finance-host-04",
+        "finance-host-01",
+        "shared-host-06",
+        "shared-host-01",
+        "shared-host-09"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_063": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 15,
+      "devices": [
+        "user_063-dev0"
+      ],
+      "normal_hosts": [
+        "hr-host-13",
+        "hr-host-02",
+        "hr-host-11",
+        "hr-host-07",
+        "hr-host-05",
+        "hr-host-12",
+        "shared-host-00",
+        "shared-host-05",
+        "shared-host-06"
+      ],
+      "drift_group": false,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "engineering-host-07",
+        "engineering-host-09",
+        "it_admin-host-03",
+        "finance-host-14"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_064": {
+      "dept": "it_admin",
+      "role": "manager",
+      "home_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 18,
+      "devices": [
+        "user_064-dev0",
+        "user_064-dev1"
+      ],
+      "normal_hosts": [
+        "it_admin-host-11",
+        "it_admin-host-06",
+        "it_admin-host-09",
+        "it_admin-host-00",
+        "it_admin-host-13",
+        "it_admin-host-02",
+        "shared-host-07",
+        "shared-host-05",
+        "shared-host-08"
+      ],
+      "drift_group": true,
+      "is_cold_start": false,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "hr-host-08",
+        "engineering-host-09",
+        "sales-host-01",
+        "finance-host-14"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null,
+      "post_drift_city": [
+        "Bengaluru",
+        12.9716,
+        77.5946,
+        "IN"
+      ],
+      "post_drift_start_hr": 11,
+      "post_drift_end_hr": 20
+    },
+    "user_065": {
+      "dept": "engineering",
+      "role": "manager",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 15,
+      "devices": [
+        "user_065-dev0",
+        "user_065-dev1"
+      ],
+      "normal_hosts": [
+        "engineering-host-08",
+        "engineering-host-11",
+        "engineering-host-07",
+        "engineering-host-03",
+        "engineering-host-09",
+        "engineering-host-04",
+        "shared-host-07",
+        "shared-host-03",
+        "shared-host-01"
+      ],
+      "drift_group": false,
+      "is_cold_start": true,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "sales-host-09",
+        "it_admin-host-09",
+        "finance-host-06",
+        "it_admin-host-08"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_066": {
+      "dept": "sales",
+      "role": "ic",
+      "home_city": [
+        "Delhi",
+        28.7041,
+        77.1025,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 17,
+      "devices": [
+        "user_066-dev0",
+        "user_066-dev1"
+      ],
+      "normal_hosts": [
+        "sales-host-03",
+        "sales-host-15",
+        "sales-host-12",
+        "sales-host-02",
+        "sales-host-14",
+        "sales-host-07",
+        "shared-host-00",
+        "shared-host-05",
+        "shared-host-08"
+      ],
+      "drift_group": false,
+      "is_cold_start": true,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_067": {
+      "dept": "finance",
+      "role": "ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 7,
+      "work_end_hr": 15,
+      "devices": [
+        "user_067-dev0"
+      ],
+      "normal_hosts": [
+        "finance-host-13",
+        "finance-host-15",
+        "finance-host-09",
+        "finance-host-01",
+        "finance-host-02",
+        "finance-host-05",
+        "shared-host-01",
+        "shared-host-07",
+        "shared-host-08"
+      ],
+      "drift_group": false,
+      "is_cold_start": true,
+      "broad_access": false,
+      "broad_access_hosts": [],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_068": {
+      "dept": "hr",
+      "role": "ic",
+      "home_city": [
+        "Mumbai",
+        19.076,
+        72.8777,
+        "IN"
+      ],
+      "work_start_hr": 10,
+      "work_end_hr": 20,
+      "devices": [
+        "user_068-dev0"
+      ],
+      "normal_hosts": [
+        "hr-host-05",
+        "hr-host-02",
+        "hr-host-15",
+        "hr-host-11",
+        "hr-host-03",
+        "hr-host-13",
+        "shared-host-08",
+        "shared-host-04",
+        "shared-host-01"
+      ],
+      "drift_group": false,
+      "is_cold_start": true,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-03",
+        "sales-host-00",
+        "finance-host-06",
+        "engineering-host-11"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    },
+    "user_069": {
+      "dept": "it_admin",
+      "role": "senior_ic",
+      "home_city": [
+        "Hyderabad",
+        17.385,
+        78.4867,
+        "IN"
+      ],
+      "work_start_hr": 8,
+      "work_end_hr": 16,
+      "devices": [
+        "user_069-dev0",
+        "user_069-dev1"
+      ],
+      "normal_hosts": [
+        "it_admin-host-08",
+        "it_admin-host-10",
+        "it_admin-host-03",
+        "it_admin-host-12",
+        "it_admin-host-09",
+        "it_admin-host-06",
+        "shared-host-09",
+        "shared-host-00",
+        "shared-host-07"
+      ],
+      "drift_group": false,
+      "is_cold_start": true,
+      "broad_access": true,
+      "broad_access_hosts": [
+        "finance-host-05",
+        "finance-host-06",
+        "hr-host-13",
+        "sales-host-15"
+      ],
+      "upgrade_device": null,
+      "upgrade_day": null
+    }
+  },
+  "devices": {
+    "user_000-dev0": {
+      "owner": "user_000",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_001-dev0": {
+      "owner": "user_001",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_002-dev0": {
+      "owner": "user_002",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_003-dev0": {
+      "owner": "user_003",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_003-dev1": {
+      "owner": "user_003",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Chrome 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_004-dev0": {
+      "owner": "user_004",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Safari 18",
+        "screen": "2880x1800"
+      }
+    },
+    "user_005-dev0": {
+      "owner": "user_005",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_006-dev0": {
+      "owner": "user_006",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Chrome 126",
+        "screen": "1920x1080"
+      }
+    },
+    "user_006-dev-upgrade": {
+      "owner": "user_006",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_007-dev0": {
+      "owner": "user_007",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Safari 18",
+        "screen": "1366x768"
+      }
+    },
+    "user_007-dev1": {
+      "owner": "user_007",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_008-dev0": {
+      "owner": "user_008",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Edge 126",
+        "screen": "1920x1080"
+      }
+    },
+    "user_008-dev1": {
+      "owner": "user_008",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Safari 18",
+        "screen": "1366x768"
+      }
+    },
+    "user_009-dev0": {
+      "owner": "user_009",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_009-dev1": {
+      "owner": "user_009",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_010-dev0": {
+      "owner": "user_010",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_011-dev0": {
+      "owner": "user_011",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Chrome 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_012-dev0": {
+      "owner": "user_012",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Edge 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_012-dev1": {
+      "owner": "user_012",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Chrome 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_013-dev0": {
+      "owner": "user_013",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_013-dev1": {
+      "owner": "user_013",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_014-dev0": {
+      "owner": "user_014",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_015-dev0": {
+      "owner": "user_015",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_016-dev0": {
+      "owner": "user_016",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_016-dev1": {
+      "owner": "user_016",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_017-dev0": {
+      "owner": "user_017",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Edge 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_018-dev0": {
+      "owner": "user_018",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Chrome 126",
+        "screen": "1920x1080"
+      }
+    },
+    "user_019-dev0": {
+      "owner": "user_019",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_019-dev-upgrade": {
+      "owner": "user_019",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Chrome 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_020-dev0": {
+      "owner": "user_020",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_020-dev1": {
+      "owner": "user_020",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_020-dev-upgrade": {
+      "owner": "user_020",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_021-dev0": {
+      "owner": "user_021",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Safari 18",
+        "screen": "2880x1800"
+      }
+    },
+    "user_022-dev0": {
+      "owner": "user_022",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Chrome 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_023-dev0": {
+      "owner": "user_023",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_024-dev0": {
+      "owner": "user_024",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Chrome 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_025-dev0": {
+      "owner": "user_025",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_026-dev0": {
+      "owner": "user_026",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Safari 18",
+        "screen": "2560x1440"
+      }
+    },
+    "user_027-dev0": {
+      "owner": "user_027",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_028-dev0": {
+      "owner": "user_028",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_029-dev0": {
+      "owner": "user_029",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Chrome 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_030-dev0": {
+      "owner": "user_030",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Safari 18",
+        "screen": "2560x1440"
+      }
+    },
+    "user_031-dev0": {
+      "owner": "user_031",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Safari 18",
+        "screen": "1366x768"
+      }
+    },
+    "user_031-dev1": {
+      "owner": "user_031",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_032-dev0": {
+      "owner": "user_032",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Safari 18",
+        "screen": "1366x768"
+      }
+    },
+    "user_032-dev1": {
+      "owner": "user_032",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_033-dev0": {
+      "owner": "user_033",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Edge 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_034-dev0": {
+      "owner": "user_034",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_035-dev0": {
+      "owner": "user_035",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Safari 18",
+        "screen": "1366x768"
+      }
+    },
+    "user_036-dev0": {
+      "owner": "user_036",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Safari 18",
+        "screen": "2880x1800"
+      }
+    },
+    "user_036-dev1": {
+      "owner": "user_036",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Chrome 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_036-dev-upgrade": {
+      "owner": "user_036",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Chrome 126",
+        "screen": "1920x1080"
+      }
+    },
+    "user_037-dev0": {
+      "owner": "user_037",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Edge 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_038-dev0": {
+      "owner": "user_038",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_039-dev0": {
+      "owner": "user_039",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_039-dev-upgrade": {
+      "owner": "user_039",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_040-dev0": {
+      "owner": "user_040",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_040-dev1": {
+      "owner": "user_040",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_041-dev0": {
+      "owner": "user_041",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Safari 18",
+        "screen": "1920x1080"
+      }
+    },
+    "user_042-dev0": {
+      "owner": "user_042",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Chrome 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_043-dev0": {
+      "owner": "user_043",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Chrome 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_043-dev1": {
+      "owner": "user_043",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_044-dev0": {
+      "owner": "user_044",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_045-dev0": {
+      "owner": "user_045",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Chrome 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_046-dev0": {
+      "owner": "user_046",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Chrome 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_047-dev0": {
+      "owner": "user_047",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_048-dev0": {
+      "owner": "user_048",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Edge 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_049-dev0": {
+      "owner": "user_049",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Edge 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_050-dev0": {
+      "owner": "user_050",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_050-dev1": {
+      "owner": "user_050",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Chrome 126",
+        "screen": "1920x1080"
+      }
+    },
+    "user_051-dev0": {
+      "owner": "user_051",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Edge 126",
+        "screen": "1920x1080"
+      }
+    },
+    "user_051-dev1": {
+      "owner": "user_051",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Chrome 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_052-dev0": {
+      "owner": "user_052",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_052-dev1": {
+      "owner": "user_052",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Chrome 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_053-dev0": {
+      "owner": "user_053",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_053-dev1": {
+      "owner": "user_053",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Chrome 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_054-dev0": {
+      "owner": "user_054",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Edge 126",
+        "screen": "2880x1800"
+      }
+    },
+    "user_055-dev0": {
+      "owner": "user_055",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_056-dev0": {
+      "owner": "user_056",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Chrome 126",
+        "screen": "1920x1080"
+      }
+    },
+    "user_057-dev0": {
+      "owner": "user_057",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_058-dev0": {
+      "owner": "user_058",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Safari 18",
+        "screen": "1920x1080"
+      }
+    },
+    "user_058-dev1": {
+      "owner": "user_058",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Edge 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_059-dev0": {
+      "owner": "user_059",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Safari 18",
+        "screen": "1920x1080"
+      }
+    },
+    "user_059-dev-upgrade": {
+      "owner": "user_059",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_060-dev0": {
+      "owner": "user_060",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_060-dev1": {
+      "owner": "user_060",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_061-dev0": {
+      "owner": "user_061",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Firefox 128",
+        "screen": "1366x768"
+      }
+    },
+    "user_061-dev-upgrade": {
+      "owner": "user_061",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Chrome 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_062-dev0": {
+      "owner": "user_062",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Safari 18",
+        "screen": "2880x1800"
+      }
+    },
+    "user_063-dev0": {
+      "owner": "user_063",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Firefox 128",
+        "screen": "2880x1800"
+      }
+    },
+    "user_064-dev0": {
+      "owner": "user_064",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Chrome 126",
+        "screen": "2560x1440"
+      }
+    },
+    "user_064-dev1": {
+      "owner": "user_064",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Edge 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_065-dev0": {
+      "owner": "user_065",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Safari 18",
+        "screen": "2880x1800"
+      }
+    },
+    "user_065-dev1": {
+      "owner": "user_065",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Chrome 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_066-dev0": {
+      "owner": "user_066",
+      "fingerprint": {
+        "os": "Ubuntu 24.04",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_066-dev1": {
+      "owner": "user_066",
+      "fingerprint": {
+        "os": "macOS 15",
+        "browser": "Firefox 128",
+        "screen": "2560x1440"
+      }
+    },
+    "user_067-dev0": {
+      "owner": "user_067",
+      "fingerprint": {
+        "os": "iOS 18",
+        "browser": "Safari 18",
+        "screen": "2880x1800"
+      }
+    },
+    "user_068-dev0": {
+      "owner": "user_068",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Edge 126",
+        "screen": "1366x768"
+      }
+    },
+    "user_069-dev0": {
+      "owner": "user_069",
+      "fingerprint": {
+        "os": "Android 15",
+        "browser": "Firefox 128",
+        "screen": "1920x1080"
+      }
+    },
+    "user_069-dev1": {
+      "owner": "user_069",
+      "fingerprint": {
+        "os": "Windows 11",
+        "browser": "Chrome 126",
+        "screen": "1920x1080"
+      }
+    }
+  },
+  "dept_hosts": {
+    "engineering": [
+      "engineering-host-00",
+      "engineering-host-01",
+      "engineering-host-02",
+      "engineering-host-03",
+      "engineering-host-04",
+      "engineering-host-05",
+      "engineering-host-06",
+      "engineering-host-07",
+      "engineering-host-08",
+      "engineering-host-09",
+      "engineering-host-10",
+      "engineering-host-11",
+      "engineering-host-12",
+      "engineering-host-13",
+      "engineering-host-14",
+      "engineering-host-15"
+    ],
+    "sales": [
+      "sales-host-00",
+      "sales-host-01",
+      "sales-host-02",
+      "sales-host-03",
+      "sales-host-04",
+      "sales-host-05",
+      "sales-host-06",
+      "sales-host-07",
+      "sales-host-08",
+      "sales-host-09",
+      "sales-host-10",
+      "sales-host-11",
+      "sales-host-12",
+      "sales-host-13",
+      "sales-host-14",
+      "sales-host-15"
+    ],
+    "finance": [
+      "finance-host-00",
+      "finance-host-01",
+      "finance-host-02",
+      "finance-host-03",
+      "finance-host-04",
+      "finance-host-05",
+      "finance-host-06",
+      "finance-host-07",
+      "finance-host-08",
+      "finance-host-09",
+      "finance-host-10",
+      "finance-host-11",
+      "finance-host-12",
+      "finance-host-13",
+      "finance-host-14",
+      "finance-host-15"
+    ],
+    "hr": [
+      "hr-host-00",
+      "hr-host-01",
+      "hr-host-02",
+      "hr-host-03",
+      "hr-host-04",
+      "hr-host-05",
+      "hr-host-06",
+      "hr-host-07",
+      "hr-host-08",
+      "hr-host-09",
+      "hr-host-10",
+      "hr-host-11",
+      "hr-host-12",
+      "hr-host-13",
+      "hr-host-14",
+      "hr-host-15"
+    ],
+    "it_admin": [
+      "it_admin-host-00",
+      "it_admin-host-01",
+      "it_admin-host-02",
+      "it_admin-host-03",
+      "it_admin-host-04",
+      "it_admin-host-05",
+      "it_admin-host-06",
+      "it_admin-host-07",
+      "it_admin-host-08",
+      "it_admin-host-09",
+      "it_admin-host-10",
+      "it_admin-host-11",
+      "it_admin-host-12",
+      "it_admin-host-13",
+      "it_admin-host-14",
+      "it_admin-host-15"
+    ]
+  },
+  "shared_hosts": [
+    "shared-host-00",
+    "shared-host-01",
+    "shared-host-02",
+    "shared-host-03",
+    "shared-host-04",
+    "shared-host-05",
+    "shared-host-06",
+    "shared-host-07",
+    "shared-host-08",
+    "shared-host-09"
+  ],
+  "graph_edges": [
+    [
+      "engineering-host-00",
+      "engineering-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-00",
+      "engineering-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-00",
+      "engineering-host-04",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-00",
+      "engineering-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-00",
+      "engineering-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-00",
+      "engineering-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-01",
+      "engineering-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-01",
+      "engineering-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-01",
+      "engineering-host-02",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-01",
+      "engineering-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-01",
+      "engineering-host-04",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-01",
+      "engineering-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-01",
+      "engineering-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "engineering-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "engineering-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "engineering-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "engineering-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "engineering-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "engineering-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "shared-host-05",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "shared-host-00",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-02",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "engineering-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "engineering-host-06",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "engineering-host-04",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "engineering-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "engineering-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "engineering-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "shared-host-09",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "shared-host-07",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-03",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-04",
+      "engineering-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-04",
+      "engineering-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-04",
+      "shared-host-00",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-04",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-04",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-05",
+      "engineering-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-05",
+      "engineering-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-06",
+      "engineering-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-06",
+      "engineering-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-06",
+      "engineering-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-06",
+      "engineering-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-06",
+      "engineering-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-07",
+      "engineering-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-07",
+      "engineering-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-07",
+      "engineering-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-08",
+      "engineering-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-08",
+      "engineering-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-08",
+      "engineering-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-08",
+      "engineering-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-08",
+      "engineering-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-08",
+      "engineering-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-09",
+      "engineering-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-09",
+      "engineering-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-10",
+      "engineering-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-11",
+      "engineering-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-11",
+      "engineering-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-11",
+      "engineering-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-11",
+      "engineering-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-13",
+      "engineering-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "engineering-host-13",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-13",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-13",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-15",
+      "shared-host-00",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-15",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "engineering-host-15",
+      "shared-host-09",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-00",
+      "sales-host-02",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-00",
+      "sales-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-00",
+      "sales-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-00",
+      "sales-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-01",
+      "sales-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-01",
+      "sales-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-01",
+      "sales-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-01",
+      "sales-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-01",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-01",
+      "shared-host-03",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-01",
+      "shared-host-05",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-02",
+      "sales-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-02",
+      "sales-host-06",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-02",
+      "sales-host-04",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-02",
+      "sales-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-02",
+      "sales-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-02",
+      "sales-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-03",
+      "sales-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-03",
+      "sales-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-03",
+      "sales-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-03",
+      "sales-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-03",
+      "sales-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-03",
+      "sales-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-03",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-03",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-03",
+      "shared-host-07",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-04",
+      "sales-host-06",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-04",
+      "sales-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-04",
+      "sales-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-04",
+      "sales-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-05",
+      "sales-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-05",
+      "sales-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-05",
+      "sales-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-05",
+      "sales-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-06",
+      "sales-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-06",
+      "sales-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-06",
+      "sales-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-06",
+      "sales-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-06",
+      "shared-host-06",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-06",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-06",
+      "shared-host-05",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-07",
+      "sales-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-07",
+      "sales-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-07",
+      "sales-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-07",
+      "sales-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-07",
+      "sales-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-07",
+      "sales-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-07",
+      "shared-host-09",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-07",
+      "shared-host-00",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-07",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-08",
+      "sales-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-08",
+      "sales-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-08",
+      "sales-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-09",
+      "sales-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-09",
+      "sales-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-09",
+      "sales-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-09",
+      "shared-host-03",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-09",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-09",
+      "shared-host-06",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "sales-host-10",
+      "sales-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-10",
+      "sales-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-11",
+      "sales-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-11",
+      "sales-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-12",
+      "sales-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-12",
+      "sales-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-13",
+      "sales-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "sales-host-14",
+      "sales-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "finance-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "finance-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "finance-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "finance-host-02",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "finance-host-01",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "finance-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "finance-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "finance-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-00",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-00",
+      "shared-host-07",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-00",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-01",
+      "finance-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-01",
+      "finance-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-01",
+      "finance-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-01",
+      "shared-host-03",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-01",
+      "shared-host-05",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-01",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-02",
+      "finance-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-02",
+      "finance-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-02",
+      "finance-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-02",
+      "finance-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-02",
+      "finance-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-03",
+      "finance-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-03",
+      "finance-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-03",
+      "finance-host-06",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-03",
+      "finance-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-03",
+      "finance-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-04",
+      "finance-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-04",
+      "finance-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-04",
+      "finance-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-04",
+      "finance-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-04",
+      "finance-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-05",
+      "finance-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-05",
+      "finance-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-05",
+      "finance-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-05",
+      "finance-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-05",
+      "finance-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-05",
+      "finance-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-06",
+      "finance-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-06",
+      "finance-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-06",
+      "finance-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-07",
+      "finance-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-07",
+      "finance-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-07",
+      "finance-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-07",
+      "finance-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-08",
+      "finance-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-08",
+      "finance-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-09",
+      "finance-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-09",
+      "finance-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-09",
+      "finance-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-10",
+      "finance-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-10",
+      "finance-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-10",
+      "finance-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-10",
+      "shared-host-07",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-10",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-10",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-11",
+      "finance-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-12",
+      "finance-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-12",
+      "finance-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-12",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-12",
+      "shared-host-05",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-12",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-13",
+      "finance-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "finance-host-14",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-14",
+      "shared-host-03",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "finance-host-14",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-00",
+      "hr-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-00",
+      "hr-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-00",
+      "hr-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-00",
+      "hr-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-00",
+      "hr-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-00",
+      "hr-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-00",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-00",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-00",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-01",
+      "hr-host-02",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-01",
+      "hr-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-01",
+      "hr-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-01",
+      "hr-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-01",
+      "hr-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-02",
+      "hr-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-02",
+      "hr-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-02",
+      "hr-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-02",
+      "hr-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-02",
+      "hr-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-02",
+      "hr-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-03",
+      "hr-host-04",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-03",
+      "hr-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-03",
+      "hr-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-03",
+      "hr-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-03",
+      "hr-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-03",
+      "hr-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-03",
+      "hr-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-03",
+      "hr-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-04",
+      "hr-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-04",
+      "hr-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-04",
+      "hr-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-04",
+      "hr-host-06",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-04",
+      "hr-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-04",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-04",
+      "shared-host-07",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-04",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-05",
+      "hr-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-05",
+      "hr-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-05",
+      "hr-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-06",
+      "hr-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-06",
+      "hr-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-07",
+      "hr-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-07",
+      "hr-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-07",
+      "hr-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-07",
+      "hr-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-07",
+      "hr-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-07",
+      "hr-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-08",
+      "hr-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-08",
+      "hr-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-08",
+      "hr-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-08",
+      "hr-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-08",
+      "shared-host-05",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-08",
+      "shared-host-03",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-08",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-09",
+      "hr-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-10",
+      "hr-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-10",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-10",
+      "shared-host-09",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-10",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-12",
+      "hr-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "hr-host-13",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-13",
+      "shared-host-09",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-13",
+      "shared-host-03",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "hr-host-14",
+      "hr-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-00",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-00",
+      "it_admin-host-03",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-00",
+      "it_admin-host-01",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-00",
+      "it_admin-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-00",
+      "it_admin-host-02",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-00",
+      "it_admin-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-00",
+      "it_admin-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-00",
+      "it_admin-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "it_admin-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "it_admin-host-06",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "it_admin-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "it_admin-host-04",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "it_admin-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "it_admin-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "shared-host-00",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "shared-host-09",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-01",
+      "shared-host-05",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-02",
+      "it_admin-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-02",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-02",
+      "it_admin-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-02",
+      "it_admin-host-06",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-03",
+      "it_admin-host-06",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-03",
+      "it_admin-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-03",
+      "it_admin-host-05",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-03",
+      "it_admin-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-03",
+      "it_admin-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-03",
+      "it_admin-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-04",
+      "it_admin-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-04",
+      "it_admin-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-04",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-04",
+      "it_admin-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-04",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-04",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-04",
+      "shared-host-00",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-05",
+      "it_admin-host-07",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-05",
+      "it_admin-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-05",
+      "it_admin-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-05",
+      "it_admin-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-05",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-06",
+      "it_admin-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-06",
+      "it_admin-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-06",
+      "it_admin-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-06",
+      "it_admin-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-06",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-06",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-06",
+      "shared-host-00",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-06",
+      "shared-host-01",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-07",
+      "it_admin-host-08",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-07",
+      "it_admin-host-11",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-08",
+      "it_admin-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-08",
+      "it_admin-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-08",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-08",
+      "it_admin-host-09",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-09",
+      "it_admin-host-10",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-10",
+      "it_admin-host-12",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-10",
+      "shared-host-07",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-10",
+      "shared-host-08",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-10",
+      "shared-host-06",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-11",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-11",
+      "it_admin-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-12",
+      "it_admin-host-13",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-12",
+      "it_admin-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-12",
+      "it_admin-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-13",
+      "it_admin-host-14",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-14",
+      "it_admin-host-15",
+      {
+        "kind": "intra_dept"
+      }
+    ],
+    [
+      "it_admin-host-15",
+      "shared-host-02",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-15",
+      "shared-host-04",
+      {
+        "kind": "shared_link"
+      }
+    ],
+    [
+      "it_admin-host-15",
+      "shared-host-09",
+      {
+        "kind": "shared_link"
+      }
+    ]
+  ],
+  "config": {
+    "drift_day": 20,
+    "cold_start_day": 22,
+    "start_date": "2026-06-15T00:00:00",
+    "sim_days": 30
+  }
+}
