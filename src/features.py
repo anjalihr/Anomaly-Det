@@ -45,12 +45,15 @@ down for legitimately broad-access roles (e.g. IT admins).
 """
  
 import json
+import os
 from collections import Counter, defaultdict, deque
  
 import numpy as np
 import pandas as pd
  
-DATA_DIR = "/Users/anj/Projects/anomaly_det/data"
+# Repo-relative, not hardcoded - this file lives in <repo_root>/src/, with
+# data/ as a sibling of src/ (same convention as run_day3.py, models.py, ...).
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 MIN_HISTORY_EVENTS = 15       # below this, an entity is treated as "cold start"
 LATERAL_WINDOW_MIN = 15       # rolling window for lateral movement burst detection
 BRUTE_FORCE_WINDOW_MIN = 5    # rolling window for failed-login burst detection

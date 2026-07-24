@@ -54,10 +54,12 @@ import numpy as np
 import pandas as pd
 from faker import Faker
  
-# Output goes to a "data" folder next to this script (created automatically
-# if it doesn't exist) — so this works no matter where you put the script.
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(SCRIPT_DIR, "data")
+# Output goes to <repo_root>/data - same convention used by every other
+# script in this project (run_day3.py, run_day4.py, models.py, ...): this
+# file is expected to live in <repo_root>/src/, with data/ as a sibling of
+# src/. Computed relative to this file, not hardcoded, so it works no
+# matter whose machine or which path the repo is cloned into.
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 os.makedirs(DATA_DIR, exist_ok=True)
  
 fake = Faker()
@@ -491,7 +493,7 @@ def main():
     print(f"\nTotal events: {n_total} | Attack events: {n_attack} ({100*n_attack/n_total:.2f}%)")
     print(df["attack_type"].value_counts(dropna=False))
  
-    df.to_csv("/Users/anj/Projects/anomaly_det/data/synthetic_logs.csv", index=False)
+    df.to_csv(os.path.join(DATA_DIR, "synthetic_logs.csv"), index=False)
  
     entities_out = {
         "users": users,
@@ -506,13 +508,13 @@ def main():
             "sim_days": SIM_DAYS,
         },
     }
-    with open("/Users/anj/Projects/anomaly_det/data/entities.json", "w") as f:
+    with open(os.path.join(DATA_DIR, "entities.json"), "w") as f:
         json.dump(entities_out, f, indent=2, default=str)
  
-    with open("/Users/anj/Projects/anomaly_det/data/attack_sessions.json", "w") as f:
+    with open(os.path.join(DATA_DIR, "attack_sessions.json"), "w") as f:
         json.dump(attack_meta, f, indent=2)
  
-    print("\nSaved: data/synthetic_logs.csv, data/entities.json, data/attack_sessions.json")
+    print(f"\nSaved: {DATA_DIR}/synthetic_logs.csv, entities.json, attack_sessions.json")
  
  
 if __name__ == "__main__":

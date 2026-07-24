@@ -31,7 +31,7 @@ membership - used ONLY for offline validation here, never fed to the
 detector itself, which sees no labels):
     15/22 (68.2%) drift-group users correctly triggered
     0/43           non-drift users falsely triggered (zero false alarms)
-    mean detection lag: +1.4 days after the true drift day (one user
+    mean detection lag: +2.47 days after the true drift day (two users
     fired at day 13, 7 days EARLY - traced to a naturally odd-hour
     normal login rather than a detector bug; noted honestly rather than
     hidden, since ADWIN making an early call on legitimately unusual
