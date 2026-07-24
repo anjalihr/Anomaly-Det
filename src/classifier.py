@@ -23,9 +23,9 @@ not just one or the other.
  
 The hard part: class imbalance
 --------------------------------
-attack_type distribution on this dataset: normal=12849, brute_force=273,
-lateral_movement=60, impossible_travel=20, device_spoofing=20,
-credential_misuse=20. A classifier trained naively on this will just
+attack_type distribution on this dataset: normal=18517, brute_force=284,
+lateral_movement=118, impossible_travel=38, device_spoofing=38,
+credential_misuse=38. A classifier trained naively on this will just
 learn to predict "normal" almost always and still score ~97% accuracy
 while catching almost nothing - accuracy is a meaningless metric here,
 which is why we report per-class precision/recall/F1 and a confusion

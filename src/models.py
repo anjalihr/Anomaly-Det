@@ -37,9 +37,9 @@ every normal event), but it's just 1 of 13 features averaged equally
 across two multivariate models. In 13-dimensional feature space, one
 flipped binary flag isn't "far" enough from the normal cluster to clear a
 percentile threshold - both IF and the autoencoder structurally dilute it.
-Measured on this dataset: 87.5% recall on brute_force, 100% on
-impossible_travel, 95% on lateral_movement, 70% on credential_misuse, but
-only ~5% on device_spoofing, at a fixed 5% false-positive budget.
+Measured on this dataset: 85.2% recall on brute_force, 97.4% on
+impossible_travel, 96.6% on lateral_movement, 71.1% on credential_misuse, but
+only 21.1% on device_spoofing, at a fixed 5% false-positive budget.
  
 This is not a modeling mistake to quietly patch - it's evidence for the
 architecture, and it is intentionally left as-is here rather than papered

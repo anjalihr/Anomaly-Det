@@ -29,7 +29,7 @@ reasonably homogeneous before its personal drift point (if any), so ADWIN
 can actually do its job. Validated against ground truth (drift_group
 membership - used ONLY for offline validation here, never fed to the
 detector itself, which sees no labels):
-    16/22 (72.7%) drift-group users correctly triggered
+    15/22 (68.2%) drift-group users correctly triggered
     0/43           non-drift users falsely triggered (zero false alarms)
     mean detection lag: +1.4 days after the true drift day (one user
     fired at day 13, 7 days EARLY - traced to a naturally odd-hour
