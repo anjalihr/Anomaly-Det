@@ -103,7 +103,7 @@ overall recall at a matched 5% FP budget on test.
 | Mean detection lag (post-drift-day) | +2.47 days |
 | Population-level alert triggered | Day 25 (10/65 = 15.4% entities drifted in a 7-day window) |
 
-## Resume / portfolio bullets
+## bullets
 
 - Designed and built an end-to-end behavioral anomaly detection system for
   cybersecurity, combining unsupervised (Isolation Forest + Autoencoder ensemble)
