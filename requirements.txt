@@ -9,3 +9,4 @@ networkx==3.6.1
 faker==26.0.0
 streamlit==1.60.0
 plotly==6.9.0
+matplotlib
